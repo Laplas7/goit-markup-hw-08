@@ -1,0 +1,89 @@
+
+.list-btn-port{
+margin-right: 8px;
+
+&:last-child{
+  margin-right: 0;
+}
+}
+
+
+
+
+.list-btn {
+  background-color: var(--background-color-white);
+  display: flex;
+  
+  justify-content: center;
+  margin-bottom: 50px;
+
+  & .btn-static {
+    background-color: var(--decoration-color);
+    color: #F5F4FA;
+    
+  }
+
+  
+& button:hover,
+& button:focus {
+  background-color: var(--decoration-color);
+  color: #ffffff;
+}
+
+& a:visited {
+  background-color: var(--decoration-color);
+}
+
+
+& button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
+}
+
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+li, p, ul, h1, h2 ,h3 , h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+.flex-con {
+  display: flex;
+}
+
+.flex-con-foot {
+  display: flex;
+  align-items: baseline;
+}
+
+
+  
+.conteiner-my {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+

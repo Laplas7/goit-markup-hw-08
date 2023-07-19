@@ -1,0 +1,112 @@
+
+.head a ,.log-link{
+    font-family: $FontFamRaleweySans;
+    font-weight: $FontWeightBold;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  
+
+
+    .our-comand ,.our-work{
+    font-weight: $FontWeightBold;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+
+
+    .log-link{
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+
+
+  
+  .our-com-list{
+    font-weight: $FontWeightMedium;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
+  
+  }
+  
+  .our-com-p{
+    margin-top: 10px;
+  }
+  
+  
+  .mein-list-p {
+    font-weight: $FontWeightRegular;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+
+  
+
+  
+  .mein-list {
+    font-weight: $FontWeightBold;
+    font-size: 14px;
+    line-height: 1.16;
+    margin-bottom: 10px;
+  }
+  
+  body {
+    background-color: var(--background-color-white);
+    font-family: $FontFamRobotoSans;
+  }
+  .list-desk p {
+    font-weight: $FontWeightRegular;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  .progect-oth {
+    font-weight: $FontWeightBold;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+    margin-bottom: 4px;
+  }
+  
+  .progect-oth-p {
+    font-weight: $FontWeightRegular;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+    
+  }
+  
+  .hero-name h1 {
+    font-weight: $FontWeightBlack;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+  }
+  
+  h3 h2 {
+    font-weight: $FontWeightBold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+  }
+  
+  
+  
+  .our-comand-list p {
+ 
+    color: #757575;
+  }
+  
+
+  
+
+  
+  .project-list p , .our-comand-list p {
+    font-weight: $FontWeightRegular;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+  

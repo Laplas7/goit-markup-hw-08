@@ -1,0 +1,32 @@
+@import './utilits/variables';
+@import './utilits/visually_hidden';
+
+
+@import './base/portfolio';
+@import './base/common';
+@import './base/container';
+
+
+@import './components/fonts';
+@import './components/components_stile_file';
+@import './components/modal_btn';
+@import './components/social_list_link';
+
+
+
+
+@import './layout/backdrop';
+@import './layout/index-heder';
+
+@import './layout/index-list-desk';
+@import './layout/index-img-desk';
+@import './layout/index-our-comand';
+@import './layout/index-client';
+@import './layout/index-footer';
+@import './layout/port-project-list';
+@import './layout/hero';
+@import './layout/footer';
+@import './layout/client';
+@import './layout/our-comand-list';
+@import './layout/portfolio';
+
