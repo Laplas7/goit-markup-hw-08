@@ -7,16 +7,21 @@ header{
       list-style: none;
     }
 
+
+
+@media screen and (max-width: 767px) {
 .nav-head{
   display: none;
   
 }
 
-
-
 .contacts {
   display: none;
 }
+
+}
+
+
 
 .container-head {
   display: flex;
@@ -98,17 +103,16 @@ header{
       // padding: 24px 0 25px 0;
     }
 
+
+    
+
         @media screen and (min-width: 768px) {
 
           .logo-link{
             margin-right: 88px;
           }
     
-        .nav-head {
-            display: flex;
-     
-            
-          }
+       
         .contacts {
             display: flex;
             flex-direction: column;
@@ -393,7 +397,6 @@ bottom: 6px;
     }
 
 .contacts {
-  display: flex;
   flex-direction: row;
 
 }

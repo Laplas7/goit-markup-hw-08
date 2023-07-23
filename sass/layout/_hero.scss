@@ -3,8 +3,113 @@
 
 
 
+
+
+.hero {
+      width: 480px;
+        height: 400px;
+        background-image: linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(../imagine/Header.jpg);
+            background-repeat: no-repeat;
+              background-size: cover;
+
+    margin: 0 auto 0 auto;
+    background-position: center;
+    background-size: 480px 400px;
+    background-color: var(--background-color-dark);
+    text-align: center;
+    padding-bottom: 118px;
+    padding-top: 118px;
+  }
+
+
+        .hero-name {
+    
+          max-width: 360px;
+          font-size: 26px;
+    
+          color: #ffffff;
+          font-family: $FontFamRobotoSans;
+          font-weight: $FontWeightBlack;
+    
+          line-height: 1.61;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+          margin-right: auto;
+          margin-left: auto;
+    
+    
+        }
+
+
+
+     .hero-btn {
+
+      font-family: $FontFamRobotoSans;
+      font-weight: $FontWeightBold;
+      line-height: 1.87;
+      font-size: 16px;
+       background-color: var(--decoration-color);
+       color: #ffffff;
+       padding: 10px 24px 10px 24px;
+       border-radius: 4px;
+       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       border: none;
+                      
+                    }
+
+
+
+
+@media (min-device-pixel-ratio: 3),
+(min-resolution: 288dpi),
+(min-resolution: 3dppx) {
+  .hero {
+    background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Header@3x.jpg);
+  }
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+.hero{
+  background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Header@2x.jpg);
+}
+
+}
+
+
+ @media screen and (min-width: 768px) {
+
+.hero {
+    background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Header-desc.jpg);
+  background-size: 768px 400px;
+  width: 768px;
+
+ }
+
+
+    @media (min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+      .hero {
+        background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Header-desc@3x.jpg);
+      }
+  
+    }
+  
+  
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .hero {
+        background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Header-desc@2x.jpg);
+      }
+    }
+
+
 .my-h-two,
-.my-h-two{
+.my-h-two {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
 }
@@ -12,86 +117,128 @@
 
 
 
-.my-hover{
+.my-hover {
   display: block;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-&:hover,
-&:focus{
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+  &:hover,
+  &:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
 
 
-}}
+  }
+}
 
-.footer-list-li:not(:last-child){
+.footer-list-li:not(:last-child) {
   margin-right: 10px;
+}
+ }
+
+
+
+@media screen and (min-width: 1200px){
+
+
+button {
+  display: inline;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 
-    
-.hero {
-  margin: 0 auto 0 auto;
-    width: 1600px;
-    background-image: linear-gradient(rgba(47,48,58,40%),rgba(47,48,58,40%)),url(../imagine/hero-img.jpg);
-    background-position: center;
+
+
+
+
+.center {
+  text-align: center;
+}
+
+
+
+.img-desk h2 {
+  text-align: center;
+}
+
+.our-comand-list h2 {
+  text-align: center;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+ }
+
+
+ @media screen and (min-width: 1200px){
+
+
+
+
+
+
+  .hero {
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Img.jpg);
     background-size: 1600px 600px;
-    background-color: var(--background-color-dark);
-    text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
   }
+
+
+     @media (min-device-pixel-ratio: 3),
+     (min-resolution: 288dpi),
+     (min-resolution: 3dppx) {
+       .hero {
+         background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Img@3x.jpg);
+       }
   
-  
-  
+     }
+
+                    @media (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+                      .hero {
+                        background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(/imagine/Img@2x.jpg);
+                      }
+          
+                    }
+
+
+
+
+
   button {
     display: inline;
   }
-  
+
   button:hover {
     cursor: pointer;
   }
-  
-  
+
+
   .hero-name {
-    color: #ffffff;
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    max-width: 696px;
-   margin-right: auto;
-   margin-left: auto;
-  
-    
+     max-width: 696px;
   }
-  
-  
-  
-  .center{
-  text-align: center;
-  }
-  
+
+
+
   .hero-btn {
-    background-color: var(--decoration-color);
-    color: #ffffff;
     padding: 10px 32px 10px 32px;
-    border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+   }
+
   .img-desk h2 {
     text-align: center;
   }
-  
-  .our-comand-list h2 {
-    text-align: center;
-  }
-  
-  .hero-btn:hover,
-  .hero-btn:focus {
-    background-color: #188ce8;
-  }
-  
+
+ }
 
 
 
@@ -100,142 +247,22 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-/*-------------------------- List Desk --------------------*/
-.list-desk {
-  background-color: var(--background-color-white);
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-li .h3 , li p , .mein-style .width-list{
-  padding: 0;
-  margin: 0;
-}
-.mrg-zero {
-  margin-bottom: 0;
-}
 
 
-.width-list:nth-child(1)::before{
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-  background-image: url(../imagine/antenna.svg);
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #F5F4FA;
- 
-}
 
-.width-list:nth-child(2)::before{
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-  background-image: url(../imagine/clock.svg);
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #F5F4FA;
- 
-}
 
-.width-list:nth-child(3):before{
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-  background-image: url(../imagine/comp.svg);
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #F5F4FA;
- 
-}
 
-.width-list:nth-child(4):before{
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-  background-image: url(../imagine/astronaut.svg);
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #F5F4FA;
 
-}
 
-.width-list {
-  
-  width: 270px;
-  display: flex;
-  flex-direction: column;
-}
 
-.width-list-last {
-  margin-right: 0;
-}
 
-.mein-style {
-  display: flex;
-  gap: 30px;
-  
-}
 
-.persona-list p {
-  text-align: center;
-}
-.persona-list h3 {
-  text-align: center;
-}
 
-.list-desk h3 {
-  color: var(--primari-color);
-}
 
-.list-desk p {
-  color: var(--second-color);
-}
-/*------------------------- Img Desk------------------------------------------ */
 
-.our-work {
-  color: var(--primari-color);
-margin-bottom: 50px;
 
-}
 
-.img-desk {
-  background-color: var(--background-color-white);
-  padding-bottom: 94px;
 
-}
 
-.img-style {
-  display: flex;
-  padding-left: 0;
-  justify-content: space-between;
- 
-}
 
-.our-com-l{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-img {
-  display: block;
-}
-
-.mrg-img {
-  margin-right: 30px;
-}
-
-.mrg-img:last-child {
-  margin-right: 0;
-}
 
