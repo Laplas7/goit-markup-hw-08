@@ -46,13 +46,26 @@
             <li class="mrg-head-con"><a href="" class="site-nav-oth a-list marg">Контакти</a></li>
           </ul>
         </nav>
-        <div class="burger-menu">
-        <button type="button" class="mobil-header-btn">
+      
+        <button type="button" class="js-open-menu">
           <svg class="mobil-header-btn__svg" width="40" height="40">
             <use href="./img/sprite.svg#icon-menu" ></use>
           </svg>
         </button>
-</div>
+  <div class="js-menu-container">
+    <div class="container mobile-menu-container ">
+      <button type="button" class="js-close-menu">
+    <svg class="mobile-menu__close-svg" width="40" height="40">
+      <use href="./img/sprite.svg#close-icon" ></use>
+    </svg></button>
+    <ul>
+      <li class="list-icon"><a href="">list</a></li>
+      <li class="list-icon"><a href="">list</a></li>
+      <li class="list-icon"><a href="">list</a></li>
+      <li class="list-icon"><a href="">list</a></li>
+    </ul>
+  </div>
+  </div>
         <ul class="contacts">
           <li class="mailto ">
             <a href="mailto:info@devstudio" class="my-nav"
@@ -63,7 +76,7 @@
         </ul>
       </div>
     </header>
-    <!-- <main>
+      <!-- <main>
         <section class="hero">
         <div class="container">
           <h1 class="hero-name">Ефективні рішення  для вашого бізнесу</h1>
@@ -311,7 +324,7 @@
           <span class="label-form-style">Коментар</span>
           <textarea name="user_message" id="user-message"  placeholder="Введіть текст" class="contact-form-message"></textarea>
         </label>
-        
+         
           <div class="contact-form-checkbox-wrapper">
           <input type="checkbox"
            name="acept-policy" 
@@ -324,7 +337,8 @@
         <button type="submit" class="submit-btn">Відправити</button>
      </form>
     </div>
-  </div>
+  </div> -->
+  <script src="./js/menu.js"></script>
   <script src="./js/modal.js"></script>
   </body>
-</html> -->
+</html> 
