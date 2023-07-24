@@ -968,40 +968,41 @@ li p,
     margin-right: 30px;
   }
 }
-.our-work {
-  color: var(--primari-color);
-  margin-bottom: 50px;
-}
-
 .img-desk {
-  background-color: var(--background-color-white);
-  padding-bottom: 94px;
+  display: none;
 }
 
-.img-style {
-  display: flex;
-  padding-left: 0;
-  justify-content: space-between;
+@media screen and (min-width: 1200px) {
+  .our-work {
+    color: var(--primari-color);
+    margin-bottom: 50px;
+  }
+  .img-desk {
+    background-color: var(--background-color-white);
+    padding-bottom: 94px;
+    display: flex;
+  }
+  .img-style {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+  }
+  .our-com-l {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  img {
+    display: block;
+  }
+  .mrg-img {
+    margin-right: 30px;
+  }
+  .mrg-img:last-child {
+    margin-right: 0;
+  }
 }
-
-.our-com-l {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-img {
-  display: block;
-}
-
-.mrg-img {
-  margin-right: 30px;
-}
-.mrg-img:last-child {
-  margin-right: 0;
-}
-
 .our-comand-list {
   background-color: #f5f4fa;
   padding-bottom: 94px;
