@@ -1,27 +1,191 @@
+
+.flex-con{
+  display: block;
+}
+        .our-comand-list h2 {
+          text-align: center;
+        }
+
+
+                .our-comand {
+                  margin-bottom: 50px;
+                }
+        
+                .persona-list {
+                  padding-left: 0;
+                  padding-right: 0;
+                  width: 100vw;
+        
+                  & p {
+                    text-align: center;
+                  }
+        
+                  & h3 {
+                    text-align: center;
+                  }
+                }
+
+.our-com-img-mobile {
+  max-width: 450px;
+  width: 100%;
+}
+
 .our-comand-list {
-    background-color: #f5f4fa;
-    padding-bottom: 94px ;
-    padding-top: 94px;
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+
+}
+
+     .our-com-l {
+       padding-top: 30px;
+       padding-left: 32px;
+       padding-right: 32px;
+       padding-bottom: 24px;
+     
+     }
+
+
+ .our-comand-img {
+   // width: 450px;
+   max-width: 450px;
+   max-height: 622px;
+   
+   background-color: var(--background-color-white);
+   margin-bottom: 30px;
+   border-radius: 5px;
+   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 12%), 0 1px 1px 0 rgba(0, 0, 0, 14%), 0 2px 1px 0 rgba(0, 0, 0, 20%), 0 4px 0 rgba(0, 0, 0, 25%);
+
+      &:nth-child(4) {
+               margin-bottom: 0;
+             }
+ }
+
+
+                .list-nav {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 16px;
+                 
+                
+                }
+  
+
+ 
+         @media screen and (min-width: 480px) {
+
+.our-comand-img {
+    height: 622px;
   }
+
+           .container {
+                padding-left: 15px;
+                padding-right: 15px;
+           }
+    
+
+         }
+
+
+                @media screen and (min-width: 768px){
+
+.our-comand-img{
+  display: block;
+}
+
+
+
+                }
+
+
+
+
+
+// .our-comand-list {
+//   background-color: #f5f4fa;
+//   padding-bottom: 94px;
+//   padding-top: 94px;
+//   max-width: 767px;
+
+// }
+
+
+
+        // .list-nav {
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   margin-top: 16px;
+        // }
+
+
+
+
+//  .our-comand-img {
+//   // width: 450px;
+//   max-width: 450px;
+//   height: 622px;
+//    background-color: var(--background-color-white);
+
+//    border-radius: 5px;
+//    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 12%), 0 1px 1px 0 rgba(0, 0, 0, 14%), 0 2px 1px 0 rgba(0, 0, 0, 20%), 0 4px 0 rgba(0, 0, 0, 25%);
+
+
+//    &:nth-child(4) {
+//      margin-right: 0;
+//    }
+//  }
+
+
+
+        // .our-com-l {
+        //   padding-top: 30px;
+        //   padding-bottom: 30px;
+        //   padding-left: 32px;
+        //   padding-right: 32px;
+        //   padding-bottom: 24px;
+        // }
+
+
+
+
+        @media screen and (min-width: 1200px){
+
+          .flex-con{
+            flex-direction: row;
+          }
+        }
+
+// .our-comand-list {
+//   background-color: #f5f4fa;
+//   padding-bottom: 94px;
+//   padding-top: 94px;
+// }
+
   
-  .our-comand-img {
-    background-color: var(--background-color-white);
-    margin-right: 30px;
-     border-radius: 5px;
-     box-shadow:  0 1px 3px 0 rgba( 0,0,0,12%), 0 1px 1px 0 rgba( 0,0,0,14%),  0 2px 1px 0 rgba( 0,0,0,20%),0 4px 0 rgba( 0,0,0,25%);
-  }
+//   .our-comand-img {
+//     background-color: var(--background-color-white);
+//     margin-right: 30px;
+//      border-radius: 5px;
+//      box-shadow:  0 1px 3px 0 rgba( 0,0,0,12%), 0 1px 1px 0 rgba( 0,0,0,14%),  0 2px 1px 0 rgba( 0,0,0,20%),0 4px 0 rgba( 0,0,0,25%);
+//   }
   
   
   
-  .our-comand-img:nth-child(4){
-    margin-right: 0;
-  }
+//   .our-comand-img:nth-child(4){
+//     margin-right: 0;
+//   }
   
-  .our-comand {
-    margin-bottom: 50px;
-  }
+//   .our-comand {
+//     margin-bottom: 50px;
+//   }
   
-  .persona-list {
-    padding-left: 0;
-    padding-right: 0;
-  }
+//   .persona-list {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
