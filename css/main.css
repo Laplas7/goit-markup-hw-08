@@ -1607,22 +1607,46 @@ li p,
     max-width: 354px;
     width: 354px;
   }
+  .flex-con {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+  }
   .our-comand-list {
-    background-color: #f5f4fa;
-    padding-bottom: 94px;
-    padding-top: 94px;
     max-width: 767px;
   }
-  .list-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 16px;
+  .our-comand-img {
+    margin-right: 30px;
+    border-radius: 5px;
+    height: 536px;
+  }
+  .our-comand-img:nth-child(4) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .our-comand-img:nth-child(2) {
+    margin-right: 0;
+  }
+  .our-com-l {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .flex-con {
+    flex-direction: row;
+  }
+  .our-comand-list {
+    max-width: 100vw;
+  }
+  .our-com-img-mobile {
+    width: 270px;
+    height: 260px;
   }
   .our-comand-img {
     max-width: 450px;
     height: 622px;
     background-color: var(--background-color-white);
+    margin-right: 30px;
     border-radius: 5px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 4px 0 rgba(0, 0, 0, 0.25);
   }
@@ -1630,7 +1654,7 @@ li p,
     margin-right: 0;
   }
   .our-comand-img:nth-child(2) {
-    margin-right: 0;
+    margin-right: 30px;
   }
   .our-com-l {
     padding-top: 30px;
@@ -1645,26 +1669,11 @@ li p,
     padding-top: 94px;
   }
   .our-comand-img {
-    background-color: var(--background-color-white);
-    margin-right: 30px;
-    border-radius: 5px;
-    height: 536px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 4px 0 rgba(0, 0, 0, 0.25);
-  }
-  .our-comand-img:nth-child(4) {
-    margin-right: 0;
-  }
-  .our-comand {
-    margin-bottom: 50px;
+    width: 270px;
+    height: 428px;
   }
   .persona-list {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .flex-con {
-    flex-direction: row;
+    width: 1170px;
   }
 }
 .list-btn button:hover,
