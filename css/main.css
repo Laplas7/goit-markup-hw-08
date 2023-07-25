@@ -993,52 +993,6 @@ li p,
     margin-right: 0;
   }
 }
-.client {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.client-list {
-  margin-right: 0;
-}
-.client-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.client-link {
-  border-radius: 5px;
-  border: solid 1px rgb(175, 177, 184);
-  width: 170px;
-  height: 92px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: #AFB1B8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-link:hover, .client-link:focus {
-  fill: var(--decoration-color);
-  border: solid 1px var(--decoration-color);
-}
-
-.client-img {
-  width: 106px;
-  height: 60px;
-}
-
-.our-client {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.cl-list {
-  display: flex;
-}
-
 .footter-link {
   background-color: var(--background-color-dark);
   padding: 60px 0 60px 0;
@@ -1474,29 +1428,6 @@ li p,
   text-decoration: underline;
 }
 
-.client {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.client-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.client-list {
-  margin-right: 0;
-}
-
-.client-link:hover,
-.client-link:focus {
-  fill: var(--decoration-color);
-  border: solid 1px var(--decoration-color);
-}
-
 .client-link {
   border-radius: 5px;
   border: solid 1px rgb(175, 177, 184);
@@ -1515,14 +1446,149 @@ li p,
 }
 
 .our-client {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .cl-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.client-list:nth-child(2n) {
+  margin-right: 0;
+}
+
+.client {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 479px) {
+  .cl-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cl-list:not(:last-child) {
+    margin-right: 0;
+  }
+  .client-list {
+    margin-right: 0;
+  }
+}
+.client-list {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.client-list:nth-child(5) {
+  margin-bottom: 30px;
+}
+.client-list:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .client-link {
+    width: 210px;
+  }
+  .client-list {
+    display: flex;
+    width: 210px;
+    height: 92px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  .client-list:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .client-list:nth-child(6) {
+    margin-bottom: 0;
+  }
+  .client-list:nth-child(2n) {
+    margin-right: 0;
+  }
+  .our-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .client-link:hover,
+  .client-link:focus {
+    fill: var(--decoration-color);
+    border: solid 1px var(--decoration-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-client {
+    max-width: 768px;
+  }
+  .client-list {
+    width: 226px;
+    margin-right: 30px;
+  }
+  .client-list:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .client-list:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .client-list:nth-child(6) {
+    margin-bottom: 0;
+  }
+  .client-list:nth-child(2n) {
+    margin-right: 30px;
+  }
+  .client-list:nth-child(3n) {
+    margin-right: 0;
+  }
+  .client-link {
+    width: 226px;
+    height: 92px;
+    display: flex;
+  }
+  .cl-list {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client-list:not(:last-child) {
+    margin-right: 30px;
+  }
+  .client-list {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .client-link {
+    width: 170px;
+    height: 92px;
+  }
+  .our-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    max-width: 1200px;
+  }
+  .cl-list {
+    max-width: 1200px;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+  }
+}
 .flex-con {
   display: block;
 }
