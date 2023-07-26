@@ -1614,9 +1614,12 @@ li p,
   .nav-footter {
     margin-top: 9px;
   }
+  .other-footer {
+    text-align: left;
+  }
   .footer-other {
-    margin-bottom: auto;
-    margin-top: auto;
+    margin-bottom: 30px;
+    margin-top: 0;
     margin-right: 0;
     position: static;
     display: inline-block;
