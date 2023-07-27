@@ -27,48 +27,53 @@
   <body>
     <header>
       <div class="container-head container">
-        <a class="logo-link log-link" href="index.html"
-          ><span class="logo log-link"> Web</span>Studio
+        <a class="logo-link log-link  " href="index.html"><span class="logo log-link"> Web</span>Studio
         </a>
         <nav class="nav-head">
           <ul class="ul-indx-head">
+            <li class="mrg-head  after-line-studia"><a href="./index.html" class="site-nav-visit a-list ">Студія</a></li>
+    
             <li class="mrg-head">
-              <a href="./index.html" class="site-nav-oth a-list">Студія</a>
+              <a href="./portfolio.html" class=" site-nav-oth portfolio-btn a-list">Портфоліо</a>
             </li>
-
-            <li class="mrg-head after-line-portfolio">
-              <a
-                href="./portfolio.html"
-                class="site-nav-visit portfolio-btn a-list"
-                >Портфоліо</a
-              >
-            </li>
-            <li class="mrg-head-con">
-              <a href="" class="site-nav-oth a-list marg">Контакти</a>
-            </li>
+            <li class="mrg-head-con"><a href="" class="site-nav-oth a-list marg">Контакти</a></li>
           </ul>
         </nav>
-
+    
+        <button type="button" class="js-open-menu">
+          <svg class="mobil-header-btn__svg" width="40" height="40">
+            <use href="./img/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="js-menu-container">
+          <div class="container mobile-menu-container ">
+            <button type="button" class="js-close-menu">
+              <svg class="mobile-menu__close-svg" width="40" height="40">
+                <use href="./img/sprite.svg#close-icon"></use>
+              </svg></button>
+            <ul>
+              <li class="list-icon"><a href="">list</a></li>
+              <li class="list-icon"><a href="">list</a></li>
+              <li class="list-icon"><a href="">list</a></li>
+              <li class="list-icon"><a href="">list</a></li>
+            </ul>
+          </div>
+        </div>
         <ul class="contacts">
-          <li class="mailto">
-            <a href="mailto:info@devstudio" class="my-nav"
-              ><svg class="my-mail" width="16" height="12">
-                <use href="./img/sprite.svg#mail"></use></svg
-              >info@devstudio.com</a>
-           
+          <li class="mailto ">
+            <a href="mailto:info@devstudio" class="my-nav"><svg class="my-mail" width="16" height="12">
+                <use href="./img/sprite.svg#mail"></use>
+              </svg>info@devstudio.com</a>
           </li>
-          <li class="mobile-contact">
-            <a href="tel:+380961111111" class="tel my-nav"
-              ><svg class="my-mail" width="10" height="16">
-                <use href="./img/sprite.svg#phone"></use></svg
-              >+38 096 111 11 11</a
-            >
-          </li>
+          <li class="mobile-contact"><a href="tel:+380961111111" class="tel my-nav"><svg class="my-mail" width="10"
+                height="16">
+                <use href="./img/sprite.svg#phone"></use>
+              </svg>+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
 
-    <!-- <main>
+    <main>
       <section class="li-btn-p">
         <div class="container">
           <ul class="list-btn">
@@ -94,9 +99,11 @@
               <a href="" class="my-hover">
                 <div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio1.jpg"
+                  srcset="./imagine/lap-com@2x.jpg 2x, ./imagine/lap-com@3x.jpg 3x"
+                    src="./imagine/lap-com.jpg"
                     alt="веб-сайт "
                     width="370"
+                    class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -117,9 +124,11 @@
               <a href="" class="my-hover my-h-two"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio2.jpg"
+                  srcset="./imagine/basc@2x.jpg 2x, ./imagine/basc@3x.jpg 3x"
+                    src="./imagine/basc.jpg"
                     alt="дизайн "
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -140,9 +149,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio3.jpg"
+                  srcset="./imagine/seafood@2x.jpg 2x,./imagine/seafood@3x.jpg 3x"
+                    src="./imagine/seafood.jpg"
                     alt="додаток "
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -163,9 +174,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio4.jpg"
+                  srcset="./imagine/music@2x.jpg 2x,./imagine/music@3x.jpg 3x"
+                    src="./imagine/music.jpg"
                     alt="маркетинг "
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -186,9 +199,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio5.jpg"
+                  srcset="./imagine/box@2x.jpg 2x,./imagine/box@3x.jpg 3x"
+                    src="./imagine/box.jpg"
                     alt="додаток"
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -209,9 +224,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio6.jpg"
+                  srcset="./imagine/decktop@2x.jpg 2x,./imagine/decktop@3x.jpg 3x"
+                    src="./imagine/decktop.jpg"
                     alt="веб-сайт"
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -232,9 +249,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio7.jpg"
+                  srcset="./imagine/book@2x.jpg 2x,./imagine/book@3x.jpg 3x"
+                    src="./imagine/book.jpg"
                     alt="дизайн"
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -255,9 +274,11 @@
               <a href="" class="my-hover">
                 <div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio8.jpg"
+                  srcset="./imagine/label@2x.jpg 2x,./imagine/label@3x.jpg 3x"
+                    src="./imagine/label.jpg"
                     alt="маркетинг"
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -278,9 +299,11 @@
               <a href="" class="my-hover"
                 ><div class="list-box-decor">
                   <img
-                    src="./imagine/portfolio9.jpg"
+                  srcset="./imagine/laptop@2x.jpg 2x,./imagine/laptop@3x.jpg 3x"
+                    src="./imagine/laptop.jpg"
                     alt="додаток"
                     width="370"
+                     class="mobil-img"
                   />
                   <div class="link-port-decor">
                     <p>
@@ -300,7 +323,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
     <footer class="footter-link ">
       <div class="flex-con-foot container">
     
