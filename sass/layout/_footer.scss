@@ -114,27 +114,7 @@
 
 
 
-.submit-btn {
 
-  display: block;
-  margin: 40px auto;
-  width: 200px;
-  height: 50px;
-  background-color: var(--decoration-color);
-  outline: none;
-  border-color: #2196f3;
-  border-radius: 4px;
-  color: #ffffff;
-
-
-
-  font-family: "Roboto", sans-serif;
-
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-}
 
 .footer-label {
   color: #ffffff;
@@ -180,9 +160,7 @@
   }
 }
 
-.contact-form-checkbox-wrapper {
-  margin-left: 14px;
-}
+
 
 .my-check-link {
   text-decoration: underline;
@@ -365,6 +343,13 @@ max-width: 200px;
 
 }
 
+.submit-btn {
+
+  
+ max-width: 200px;
+  
+}
+
                  .submit-footer-btn {
                    margin-left: auto;
                    margin-right: auto;
@@ -424,6 +409,28 @@ max-width: 200px;
         border: 1px solid var(--decoration-color);
       }
     }
+
+.submit-btn {
+
+  display: block;
+  margin: 40px auto;
+  width: 200px;
+  height: 50px;
+  background-color: var(--decoration-color);
+  outline: none;
+  border-color: #2196f3;
+  border-radius: 4px;
+  color: #ffffff;
+
+
+
+  font-family: "Roboto", sans-serif;
+
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
 
         .footer-list-li {
     
