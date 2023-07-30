@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
+    <script defer src="https://i.icomoon.io/public/temp/4aecd4d749/UntitledProject/svgxuse.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -45,20 +46,35 @@
             <use href="./img/sprite.svg#icon-menu"></use>
           </svg>
         </button>
-        <div class="js-menu-container">
-          <div class="container mobile-menu-container ">
-            <button type="button" class="js-close-menu">
-              <svg class="mobile-menu__close-svg" width="40" height="40">
-                <use href="./img/sprite.svg#close-icon"></use>
-              </svg></button>
-            <ul>
-              <li class="list-icon"><a href="">list</a></li>
-              <li class="list-icon"><a href="">list</a></li>
-              <li class="list-icon"><a href="">list</a></li>
-              <li class="list-icon"><a href="">list</a></li>
-            </ul>
-          </div>
-        </div>
+
+          <div class="js-menu-container">
+    <div class="container mobile-menu-container ">
+      <button type="button" class="js-close-menu">
+    <svg class="mobile-menu__close-svg" width="40" height="40">
+      <use href="./img/sprite.svg#close-icon" ></use>
+    </svg></button>
+
+
+    <ul class="list-icon-page">
+      <li class="list-icon "><a href="./index.html" class=" "><use class="use-mobile use-btn-mob">Студія</use></a></li>
+      <li class="list-icon"><a href="./portfolio.html" class=" "><use class="use-mobile">Портфоліо</use></a></li>
+      <li class="list-icon"><a href="" class=""><use class="use-mobile">Контакти</use></a></li>
+    </ul>
+    <ul class="list-contact-mob">
+      <li class="list-nav-mob "><a href="tel:+380961111111" class="tel-mobile">
+          +38 096 111 11 11</a></li>
+      <li class="list-nav-mob "><a href="mailto:info@devstudio" class=" mail-mobile">
+          
+        info@devstudio.com</a></li>
+    </ul >
+    <ul class="nav-list-mobile">
+      <li class="list-mobile"><a href="" class="list-link-mobile">Instagram</a></li>
+      <li class="list-mobile"><a href="" class="list-link-mobile">Twitter</a></li>
+      <li class="list-mobile"><a href="" class="list-link-mobile">Facebook</a></li>
+      <li class="list-mobile-last"><a href="" class="list-link-mobile">Linkedin</a></li>
+    </ul>
+  </div>
+  </div>
         <ul class="contacts">
           <li class="mailto ">
             <a href="mailto:info@devstudio" class="my-nav"><svg class="my-mail" width="16" height="12">
@@ -371,5 +387,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
