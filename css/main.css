@@ -1647,7 +1647,7 @@ li p,
     width: 24px;
     height: 24px;
     background-color: var(--decoration-color);
-    background-image: url(/imagine/telegramm.svg);
+    background-image: url(../imagine/telegramm.svg);
     margin-left: 10px;
   }
   .footer-btn-sub {
