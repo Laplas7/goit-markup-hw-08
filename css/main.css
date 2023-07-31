@@ -441,7 +441,7 @@ h3 h2 {
 }
 
 .contact-chckbox:checked + .contact-form-checkbox-label::before {
-  background-image: url(/imagine/popitka-two.svg);
+  background-image: url(../imagine/popitka-two.svg);
   background-color: var(--decoration-color);
   background-size: contain;
   background-repeat: no-repeat;
