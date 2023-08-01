@@ -9,11 +9,14 @@ header{
 
 
 
+
 @media screen and (max-width: 767px) {
 .nav-head{
   display: none;
   
 }
+
+
 
 .contacts {
   display: none;
@@ -51,6 +54,7 @@ fill: #000000;
   opacity: 1;
   visibility: visible;
   pointer-events: fill;
+  overflow-x: hidden;
 
 }
 

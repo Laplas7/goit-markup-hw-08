@@ -6,17 +6,17 @@
 
 
 .hero {
-      width: 100vw;
+  
         height: 400px;
         background-image: linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(../imagine/Header.jpg);
             background-repeat: no-repeat;
-              background-size: cover;
+              background-size: 100vw 400px;
 
     margin: 0 auto 0 auto;
     background-position: center;
   
-background-color: #ffffff;
-    background-size: 480px 400px;
+background-color: black;
+   
   
     text-align: center;
     padding-bottom: 118px;
@@ -94,10 +94,11 @@ background-color: #ffffff;
 
 .hero {
     background-image:linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(../imagine/Header-desc.jpg);
-  background-size: 768px 400px;
-  width: 768px;
+  background-size: 100vw 400px;
+  
 
  }
+
 
 
     @media (min-device-pixel-ratio: 3),
@@ -193,7 +194,7 @@ button:hover {
 
   .hero {
     height: 600px;
-    width: 100vw;
+    width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)), url(../imagine/Img.jpg);
     background-size: 1600px 600px;
  

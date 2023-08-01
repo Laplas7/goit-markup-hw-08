@@ -40,6 +40,7 @@
     font-weight: $FontWeightRegular;
     font-size: 14px;
     line-height: 1.71;
+    color: rgba($color: #757575, $alpha: 1.0);
   }
   
 
@@ -56,6 +57,7 @@
   body {
     background-color: var(--background-color-white);
     font-family: $FontFamRobotoSans;
+    overflow-x: hidden;
   }
   .list-desk p {
     font-weight: $FontWeightRegular;

@@ -67,6 +67,10 @@ li, p, ul, h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -122,6 +126,7 @@ li, p, ul, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: #757575;
 }
 
 .mein-list {
@@ -134,6 +139,7 @@ li, p, ul, h1, h2, h3, h4, h5, h6 {
 body {
   background-color: var(--background-color-white);
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .list-desk p {
@@ -524,6 +530,7 @@ li {
   opacity: 1;
   visibility: visible;
   pointer-events: fill;
+  overflow-x: hidden;
 }
 
 .mobile-menu-container {
@@ -797,6 +804,7 @@ li p,
 @media screen and (min-width: 768px) {
   .width-list {
     display: inline-block;
+    align-items: start;
     width: 354px;
     margin-right: 26px;
   }
@@ -859,6 +867,49 @@ li p,
     margin-right: 0;
   }
 }
+@media screen and (max-width: 479px) {
+  .use-mobile {
+    font-size: 20px;
+  }
+  .mobile-menu-container {
+    overflow: hidden;
+  }
+  .nav-list-mobile {
+    flex-wrap: wrap;
+  }
+  .list-link-mobile {
+    font-size: 9px;
+  }
+  .mail-mobile {
+    font-size: 12px;
+  }
+  .tel-mobile {
+    font-size: 17px;
+  }
+  .js-menu-container {
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 480px) {
+  .use-mobile {
+    font-size: 40px;
+  }
+  .mobile-menu-container {
+    overflow-x: hidden;
+  }
+  .list-link-mobile {
+    font-size: 18px;
+  }
+  .mail-mobile {
+    font-size: 24px;
+  }
+  .tel-mobile {
+    font-size: 34px;
+  }
+  .js-menu-container {
+    overflow-x: hidden;
+  }
+}
 .list-icon {
   margin-bottom: 32px;
 }
@@ -869,7 +920,6 @@ li p,
 .use-mobile {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 40px;
   color: #212121;
   display: flex;
 }
@@ -945,13 +995,11 @@ li p,
 }
 
 .tel-mobile {
-  font-size: 34px;
   color: var(--decoration-color);
 }
 
 .mail-mobile {
   color: #757575;
-  font-size: 24px;
 }
 .mail-mobile:hover, .mail-mobile:focus {
   color: var(--decoration-color);
@@ -978,21 +1026,18 @@ li p,
 .list-link-mobile {
   text-decoration: none;
   color: var(--decoration-color);
-  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
 .hero {
-  width: 100vw;
   height: 400px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imagine/Header.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 400px;
   margin: 0 auto 0 auto;
   background-position: center;
-  background-color: #ffffff;
-  background-size: 480px 400px;
+  background-color: black;
   text-align: center;
   padding-bottom: 118px;
   padding-top: 118px;
@@ -1042,8 +1087,7 @@ li p,
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imagine/Header-desc.jpg);
-    background-size: 768px 400px;
-    width: 768px;
+    background-size: 100vw 400px;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
@@ -1094,7 +1138,7 @@ li p,
 @media screen and (min-width: 1200px) {
   .hero {
     height: 600px;
-    width: 100vw;
+    width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imagine/Img.jpg);
     background-size: 1600px 600px;
     padding-bottom: 200px;
@@ -1361,10 +1405,13 @@ li p,
 }
 
 @media screen and (max-width: 479px) {
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .footter-in {
     display: inline;
-    width: 120px;
-    max-width: 200px;
     margin-bottom: 20px;
     height: 50px;
     outline: none;
@@ -1391,7 +1438,6 @@ li p,
   .submit-footer-btn {
     margin-left: auto;
     margin-right: auto;
-    width: 120px;
     border-radius: 4px;
     background-color: var(--decoration-color);
     color: #ffffff;
@@ -1842,7 +1888,7 @@ li p,
 .persona-list {
   padding-left: 0;
   padding-right: 0;
-  width: 100vw;
+  width: 100%;
 }
 .persona-list p {
   text-align: center;
@@ -2243,6 +2289,10 @@ li p,
 @media screen and (min-width: 1200px) {
   .portfolio-list-stile {
     margin-bottom: 30px;
+  }
+  .portfolio-list-stile {
+    width: 370px;
+    height: 404px;
   }
   .portfolio-list-stile:not(:nth-child(3n)) {
     margin-right: 30px;

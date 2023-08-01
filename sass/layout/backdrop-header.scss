@@ -1,149 +1,227 @@
-.list-icon{
-margin-bottom: 32px;
 
 
-&:nth-child(3n){
-  margin-bottom: 0;
-}
-}
 
+                @media screen and (max-width: 479px) {
+        
+                  .use-mobile {
+                    font-size: 20px;
+                  }
 
+                                    .mobile-menu-container{
+                                      overflow: hidden;
+                                    }
+
+                                                                        .nav-list-mobile{
+                                                                          
+                                                                          flex-wrap: wrap;
+                                                                         
+                                                                        }
+
+                                     .list-link-mobile {
+                                      
+                                       font-size: 9px;
+                                    
+                  
+                  
+                                     }
+
+                                     .mail-mobile {
+                                     
+                                       font-size: 12px;}
+
+                                    .tel-mobile {
+                                      font-size: 17px;
+                                    }
+
+                  .js-menu-container{
+                    overflow-x: hidden;
+                  }
+        
+                }
+
+ @media screen and (min-width: 480px){
 .use-mobile{
+   font-size: 40px;
 
-    font-family: $FontFamRobotoSans;
-  font-weight: 500;
-  font-size: 40px;
-  color: #212121;
-  display: flex;
-
-  &:hover, &:focus{
-    color: var(--decoration-color);
-  }
-
-}
-
-.use-mobile.use-btn-mob{
-  color: var(--decoration-color);
-}
-
-.list-contact-mob{
-
-  margin-bottom: 64px;
-
-}
-
-.list-icon-page{
-  margin-bottom: auto;
-}
-
-.mobile-menu-container{
-  display: flex;
-  flex-direction: column;
-  
-  height: 100%;
- 
-      padding: 48px 40px 48px 40px;
-}
-
-.js-menu-container {
-  background-color: #ffffff;
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  overflow: auto;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity 250ms linear, visibility 250ms linear;
-  height: 100%;
-    width: 100vw;
-    position: fixed;
    
 }
+.mobile-menu-container {
+  overflow-x: hidden;
+}
 
-.mobil-header-btn__svg {
-  fill: #000000;
+ .list-link-mobile {
   
-  &:hover, &:focus{
-    fill: var(--decoration-color);
-  }
+   font-size: 18px;
+   
+
+
+ }
+
+ .mail-mobile {
+
+   font-size: 24px;}
+
+.tel-mobile {
+  font-size: 34px;
 }
 
-.js-close-menu {
-  position: absolute;
-  top: 16px;
-  right: 15px;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 0;
+ .js-menu-container {
+   overflow-x: hidden;
+ }
 
-  &:hover, &:focus{
-    fill:var(--decoration-color);
+ }
+                             
+
+.list-icon {
+    margin-bottom: 32px;
+
+
+    &:nth-child(3n) {
+      margin-bottom: 0;
+    }
   }
 
-}
+.use-mobile {
 
-.list-nav-mob{
-  font-family: $FontFamRobotoSans;
+    font-family: $FontFamRobotoSans;
     font-weight: 500;
-    
+   
     color: #212121;
     display: flex;
 
-    &:not(:last-child){
-      margin-bottom: 30px;
-    }
-  
-}
-
-.tel-mobile{
-font-size: 34px;
-color: var(--decoration-color);
-}
-
-.mail-mobile{
-  color: #757575;
-  font-size: 24px;
     &:hover,
-      &:focus {
-        color: var(--decoration-color);
-    
-      }
-}
+    &:focus {
+      color: var(--decoration-color);
+    }
 
-.nav-list-mobile{
-display: flex;
-}
-
-.list-mobile-last{
-margin-left: 10px;
-}
-
-.list-mobile{
-
-  &::after{
-    content: "";
-   border: solid 1px rgba($color: #757575, $alpha: 0.2);
-   height: 22px;
-   margin-left: 10px;
   }
 
+  .use-mobile.use-btn-mob {
+    color: var(--decoration-color);
+  }
 
- &:not(:first-child){
- margin-left: 10px;
-}
-}
+  .list-contact-mob {
 
-.list-link-mobile{
-  text-decoration: none;
-color: var(--decoration-color);
- font-size: 18px;
-font-family: $FontFamRobotoSans;
-font-weight: 500;
+    margin-bottom: 64px;
+
+  }
+
+  .list-icon-page {
+    margin-bottom: auto;
+  }
+
+  .mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+
+    padding: 48px 40px 48px 40px;
+  }
+
+  .js-menu-container {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+
+  }
+
+  .mobil-header-btn__svg {
+    fill: #000000;
+
+    &:hover,
+    &:focus {
+      fill: var(--decoration-color);
+    }
+  }
+
+  .js-close-menu {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+
+    &:hover,
+    &:focus {
+      fill: var(--decoration-color);
+    }
+
+  }
+
+  .list-nav-mob {
+    font-family: $FontFamRobotoSans;
+    font-weight: 500;
+
+    color: #212121;
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .tel-mobile {
+    
+    color: var(--decoration-color);
+  }
+
+  .mail-mobile {
+    color: #757575;
+   
+
+    &:hover,
+    &:focus {
+      color: var(--decoration-color);
+
+    }
+  }
+
+  .nav-list-mobile {
+    display: flex;
+  }
+
+  .list-mobile-last {
+    margin-left: 10px;
+  }
+
+  .list-mobile {
+
+    &::after {
+      content: "";
+      border: solid 1px rgba($color: #757575, $alpha: 0.2);
+      height: 22px;
+      margin-left: 10px;
+    }
 
 
-}
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+
+  .list-link-mobile {
+    text-decoration: none;
+    color: var(--decoration-color);
+   
+    font-family: $FontFamRobotoSans;
+    font-weight: 500;
+
+
+  }
+
