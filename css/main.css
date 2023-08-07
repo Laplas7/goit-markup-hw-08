@@ -1226,6 +1226,16 @@ li p,
   align-items: center;
 }
 
+.footer-btn-sub::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: var(--decoration-color);
+  background-image: url(../imagine/telegramm.svg);
+  margin-left: 10px;
+}
+
 .project-list {
   flex-wrap: wrap;
   display: flex;
