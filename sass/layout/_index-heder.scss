@@ -7,7 +7,13 @@ header{
       list-style: none;
     }
 
-
+         .social-footer-link:hover,
+         .social-footer-link:focus {
+           fill: var(--background-color-white);
+           background-color: #2196f3;
+    
+          
+         }
 
 
 @media screen and (max-width: 767px) {
@@ -41,10 +47,19 @@ header{
   background-color: transparent;
   padding: 0;
   line-height: 0;
-}
+  
+  }
+
 
 .mobil-header-btn__svg{
 fill: #000000;
+
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--decoration-color);
+  }
 }
 
 
@@ -281,13 +296,7 @@ header{
           
                      }
           
-                     .social-footer-link:hover,
-                     .social-footer-link:focus {
-                       fill: var(--background-color-white);
-                       background-color: #2196f3;
-          
-                       border-radius: 50%;
-                     }
+                
           
                      .social-footer-link {
                        display: flex;
