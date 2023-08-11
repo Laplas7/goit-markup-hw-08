@@ -249,11 +249,20 @@
     padding-bottom: 20px;
   }
 
-  .port-wrapper{
-    padding-bottom: 56px;
+  .port-list-project{
+    display: flex;
+    flex-direction: column;
   }
 
 
+  
+
+  .port-wrapper{
+  flex-basis: 142px;
+    display: flex;
+  flex-direction: column;
+  }
+  
 
                  
 
@@ -375,6 +384,12 @@ margin-right: 30px;
      }
      
   }
+
+        .port-wrapper {
+          flex-basis: 112px;
+          display: flex;
+          flex-direction: column;
+        }
 
         .basc {
           width: auto;

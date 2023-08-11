@@ -2286,8 +2286,14 @@ li p,
   .port-list-project .basc-wrapper {
     padding-bottom: 20px;
   }
+  .port-list-project {
+    display: flex;
+    flex-direction: column;
+  }
   .port-wrapper {
-    padding-bottom: 56px;
+    flex-basis: 142px;
+    display: flex;
+    flex-direction: column;
   }
   .project-list {
     justify-content: left;
@@ -2367,6 +2373,11 @@ li p,
   }
   .portfolio-list-stile:last-child {
     margin-right: 0;
+  }
+  .port-wrapper {
+    flex-basis: 112px;
+    display: flex;
+    flex-direction: column;
   }
   .basc {
     width: auto;
